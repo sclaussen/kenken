@@ -7,7 +7,7 @@ var getPossibleSolutions = require('./possibleSolutions');
 main(process.argv);
 
 
-// node index puzzleSize cageSize cateTotalOperator duplicatesAllowed
+// node index puzzleSize cageSize cageTotalOperator duplicatesAllowed
 function main(args) {
     let puzzleSize = parseInt(args[2]);
     let cageSize = parseInt(args[3]);
